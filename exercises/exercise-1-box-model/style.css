@@ -1,4 +1,3 @@
-/* TODO: Implement the CSS Box Model according to README instructions */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -10,9 +9,22 @@ body {
 }
 
 .hq-card {
-  /* Add max-width, padding, margin, border-radius, and border here */
+  max-width: 350px;
+  padding: 24px;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 2px solid #f5b904;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .hq-badge {
-  /* Add display, background-color, padding, and border-radius here */
+  display: inline-block;
+  background-color: #f5b904;
+  color: #0b1a2c;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
 }

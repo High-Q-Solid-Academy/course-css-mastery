@@ -1,4 +1,3 @@
-/* TODO: Implement CSS Grid layout according to README.md */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -16,9 +15,21 @@ body {
 }
 
 .courses-grid {
-  /* Add display: grid, grid-template-columns, gap, etc. */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 24px 0;
 }
 
 .course-item {
-  /* Add card styles and hover transition */
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
