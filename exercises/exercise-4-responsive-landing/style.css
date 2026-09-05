@@ -1,0 +1,34 @@
+/* TODO: Implement variables, mobile-first design, and media query */
+:root {
+  --hq-yellow: #f5b904;
+  --hq-dark: #0b1a2c;
+  --hq-text: #1e293b;
+  --hq-bg: #f8fafc;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--hq-text);
+  background-color: var(--hq-bg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Mobile-first styles */
+.btn-primary {
+  /* Style primary button */
+}
+
+/* Desktop styles via media query */
+@media (min-width: 768px) {
+  /* Add desktop flex alignment */
+}

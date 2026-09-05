@@ -1,0 +1,18 @@
+/* TODO: Implement the CSS Box Model according to README instructions */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  padding: 20px;
+}
+
+.hq-card {
+  /* Add max-width, padding, margin, border-radius, and border here */
+}
+
+.hq-badge {
+  /* Add display, background-color, padding, and border-radius here */
+}

@@ -1,0 +1,12 @@
+{
+  "name": "course-css-mastery",
+  "version": "1.0.0",
+  "description": "CSS Mastery & Responsive Design course at High Q Solid Academy",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.5.0"
+  }
+}

@@ -1,0 +1,21 @@
+/* TODO: Implement Flexbox navigation styles according to README.md */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.navbar {
+  /* Add display: flex, justify-content, align-items, etc. */
+}
+
+.nav-links {
+  /* Add flexbox layout, list-style, gap, etc. */
+}
+
+.nav-links a {
+  /* Add styling and hover effect */
+}
