@@ -1,30 +1,21 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+/* 
+  High Q Solid Academy - Exercise 1: CSS Box Model Card
+  "Always Ahead of Others"
 
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  background-color: #f8fafc;
-  padding: 20px;
-}
+  TODO Instructions:
+  1. Apply a universal box-sizing reset (*, *::before, *::after) to border-box.
+  2. Style .hq-card:
+     - Set max-width to 350px
+     - Set padding to 24px
+     - Center the card using margin (20px auto)
+     - Add border-radius: 12px
+     - Add border: 2px solid #f5b904
+     - Add background-color: #ffffff
+  3. Style .hq-badge:
+     - display: inline-block
+     - background-color: #f5b904
+     - padding: 4px 12px
+     - border-radius: 999px
+*/
 
-.hq-card {
-  max-width: 350px;
-  padding: 24px;
-  margin: 20px auto;
-  border-radius: 12px;
-  border: 2px solid #f5b904;
-  background-color: #ffffff;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-}
-
-.hq-badge {
-  display: inline-block;
-  background-color: #f5b904;
-  color: #0b1a2c;
-  font-weight: 700;
-  padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  margin-bottom: 12px;
-}
+/* TODO: Write your CSS box model rules below */

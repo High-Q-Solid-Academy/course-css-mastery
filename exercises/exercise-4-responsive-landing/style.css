@@ -1,41 +1,23 @@
-:root {
-  --hq-yellow: #f5b904;
-  --hq-dark: #0b1a2c;
-  --hq-text: #1e293b;
-  --hq-bg: #f8fafc;
-}
+/* 
+  High Q Solid Academy - Exercise 4: Mobile-First Responsive Landing Page
+  "Always Ahead of Others"
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+  TODO Instructions:
+  1. Define custom properties on :root:
+     - --hq-yellow: #f5b904;
+     - --hq-dark: #0b1a2c;
+     - --hq-text: #1e293b;
+     - --hq-bg: #f8fafc;
+  2. Define mobile-first baseline layout for .hero-content.
+  3. Define a desktop media query:
+     @media (min-width: 768px) {
+       .hero-content {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+       }
+     }
+  4. Style .btn-primary with background var(--hq-yellow) and text var(--hq-dark).
+*/
 
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-  color: var(--hq-text);
-  background-color: var(--hq-bg);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.btn-primary {
-  display: inline-block;
-  background-color: var(--hq-yellow);
-  color: var(--hq-dark);
-  font-weight: 700;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
+/* TODO: Write your responsive landing page rules below */

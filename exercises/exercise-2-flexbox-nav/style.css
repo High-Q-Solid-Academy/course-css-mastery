@@ -1,36 +1,24 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+/* 
+  High Q Solid Academy - Exercise 2: Flexbox Navigation Bar
+  "Always Ahead of Others"
 
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-}
+  TODO Instructions:
+  1. Style .navbar:
+     - display: flex
+     - justify-content: space-between
+     - align-items: center
+     - padding: 16px 32px
+     - background-color: #0b1a2c
+     - color: #ffffff
+  2. Style .nav-links:
+     - display: flex
+     - list-style: none
+     - gap: 20px
+     - align-items: center
+  3. Style .nav-links a:
+     - text-decoration: none
+     - color: #ffffff
+     - :hover state color: #f5b904
+*/
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
-  background-color: #0b1a2c;
-  color: #ffffff;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #ffffff;
-  transition: color 0.2s ease;
-}
-
-.nav-links a:hover {
-  color: #f5b904;
-}
+/* TODO: Write your Flexbox navigation rules below */
